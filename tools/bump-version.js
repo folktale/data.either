@@ -1,4 +1,4 @@
-var pkg = require('./package.json')
+var pkg = require('../package.json')
 var fs  = require('fs')
 
 function minor(a) {
