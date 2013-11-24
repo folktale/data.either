@@ -126,7 +126,7 @@ Released under the [MIT licence](https://github.com/folktale/monads.either/blob/
 <!-- links -->
 [Fantasy Land]: https://github.com/fantasyland/fantasy-land
 [Browserify]: http://browserify.org/
-[release]: https://github.com/folktale/monads.either/releases/download/v0.0.0/monads.either-0.0.0.tar.gz
+[release]: https://github.com/folktale/monads.either/releases/download/v0.1.0/monads.either-0.1.0.tar.gz
 [Git]: http://git-scm.com/
 [Make]: http://www.gnu.org/software/make/
 [Node.js]: http://nodejs.org/
