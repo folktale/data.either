@@ -16,5 +16,4 @@ function bump(what, version) {
   :      /* otherwise */      minor(version) }
 
 pkg.version = bump(process.argv[2], pkg.version.split('.')).join('.')
-// fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2))
-console.log(pkg.version)
+fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2))
