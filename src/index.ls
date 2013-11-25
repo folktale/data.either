@@ -126,7 +126,7 @@ class Either
   # The `Either(a, b)` monad should contain a function value, otherwise
   # a `TypeError` is thrown.
   #
-  # + type: (@Either(a, b -> c), f:Applicative) -> f(b) -> f(c)
+  # + type: (@Either(a, b -> c), f:Applicative) => f(b) -> f(c)
   ap: (_) -> ...
 
 
