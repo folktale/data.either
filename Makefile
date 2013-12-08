@@ -13,7 +13,7 @@ dist:
 	mkdir -p dist
 
 dist/monads.either.umd.js: compile dist
-	$(browserify) lib/index.js --standalone Either > $@
+	$(browserify) lib/index.js --standalone folktale.monads.Either > $@
 
 dist/monads.either.umd.min.js: dist/monads.either.umd.js
 	$(uglify) --mangle - < $^ > $@

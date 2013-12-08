@@ -78,7 +78,7 @@ require(['monads.either'], function(Either) {
 ### Using without modules
 
 [Download the latest release][release], and load the `monads.either.umd.js`
-file. The properties are exposed in the global `Either` object:
+file. The properties are exposed in the global `folktale.monads.Either` object:
 
 ```html
 <script src="/path/to/monads.either.umd.js"></script>
@@ -103,8 +103,8 @@ any JavaScript environment.
 
 You can [read the documentation online][docs] or build it yourself:
 
-    $ git clone git://github.com/folktale/monads.maybe.git
-    $ cd monads.maybe
+    $ git clone git://github.com/folktale/monads.either.git
+    $ cd monads.either
     $ npm install
     $ make documentation
 
