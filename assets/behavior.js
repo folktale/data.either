@@ -13,7 +13,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "commentsOnly": true,
           "name": "Markdown"
         },
-        "sourcePath": "/home/queen/Projects/folktale/monads.either/README.md",
+        "sourcePath": "/home/queen/Projects/folktale/monads/either/README.md",
         "projectPath": "README.md",
         "targetPath": "index",
         "pageTitle": "index",
@@ -21,8 +21,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "type": "heading",
           "data": {
             "level": 1,
-            "title": "monads.either",
-            "slug": "monadseither",
+            "title": "Monads: Either",
+            "slug": "monads-either",
             "isFileHeader": true
           },
           "depth": 1,
@@ -105,7 +105,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             }
           ]
         },
-        "title": "monads.either"
+        "title": "Monads: Either"
       },
       "depth": 1,
       "outline": [
@@ -206,7 +206,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "LiveScript"
             },
-            "sourcePath": "/home/queen/Projects/folktale/monads.either/src/index.ls",
+            "sourcePath": "/home/queen/Projects/folktale/monads/either/src/index.ls",
             "projectPath": "src/index.ls",
             "targetPath": "src/index",
             "pageTitle": "src/index",
@@ -214,8 +214,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "type": "heading",
               "data": {
                 "level": 1,
-                "title": "monads.either",
-                "slug": "monadseither",
+                "title": "Monad: Either(a, b)",
+                "slug": "monad-eithera-b",
                 "isFileHeader": true
               },
               "depth": 1,
@@ -233,8 +233,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                       "type": "heading",
                       "data": {
                         "level": 3,
-                        "title": "Section: Constructors",
-                        "slug": "section-constructors"
+                        "title": "Constructors",
+                        "slug": "constructors"
                       },
                       "depth": 3,
                       "children": [
@@ -268,8 +268,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                       "type": "heading",
                       "data": {
                         "level": 3,
-                        "title": "Section: Predicates",
-                        "slug": "section-predicates"
+                        "title": "Predicates",
+                        "slug": "predicates"
                       },
                       "depth": 3,
                       "children": [
@@ -295,8 +295,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                       "type": "heading",
                       "data": {
                         "level": 3,
-                        "title": "Section: Applicative",
-                        "slug": "section-applicative"
+                        "title": "Applicative",
+                        "slug": "applicative"
                       },
                       "depth": 3,
                       "children": [
@@ -322,8 +322,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                       "type": "heading",
                       "data": {
                         "level": 3,
-                        "title": "Section: Functor",
-                        "slug": "section-functor"
+                        "title": "Functor",
+                        "slug": "functor"
                       },
                       "depth": 3,
                       "children": [
@@ -341,8 +341,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                       "type": "heading",
                       "data": {
                         "level": 3,
-                        "title": "Section: Chain",
-                        "slug": "section-chain"
+                        "title": "Chain",
+                        "slug": "chain"
                       },
                       "depth": 3,
                       "children": [
@@ -360,8 +360,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                       "type": "heading",
                       "data": {
                         "level": 3,
-                        "title": "Section: Show",
-                        "slug": "section-show"
+                        "title": "Show",
+                        "slug": "show"
                       },
                       "depth": 3,
                       "children": [
@@ -379,8 +379,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                       "type": "heading",
                       "data": {
                         "level": 3,
-                        "title": "Section: Eq",
-                        "slug": "section-eq"
+                        "title": "Eq",
+                        "slug": "eq"
                       },
                       "depth": 3,
                       "children": [
@@ -398,8 +398,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                       "type": "heading",
                       "data": {
                         "level": 3,
-                        "title": "Section: Extracting and Recovering",
-                        "slug": "section-extracting-and-recovering"
+                        "title": "Extracting and Recovering",
+                        "slug": "extracting-and-recovering"
                       },
                       "depth": 3,
                       "children": [
@@ -441,8 +441,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                       "type": "heading",
                       "data": {
                         "level": 3,
-                        "title": "Section: Folds and Extended Transformations",
-                        "slug": "section-folds-and-extended-transformations"
+                        "title": "Folds and Extended Transformations",
+                        "slug": "folds-and-extended-transformations"
                       },
                       "depth": 3,
                       "children": [
@@ -509,7 +509,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                 }
               ]
             },
-            "title": "monads.either"
+            "title": "Monad: Either(a, b)"
           },
           "depth": 2,
           "outline": [
@@ -526,8 +526,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "type": "heading",
                   "data": {
                     "level": 3,
-                    "title": "Section: Constructors",
-                    "slug": "section-constructors"
+                    "title": "Constructors",
+                    "slug": "constructors"
                   },
                   "depth": 3,
                   "children": [
@@ -561,8 +561,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "type": "heading",
                   "data": {
                     "level": 3,
-                    "title": "Section: Predicates",
-                    "slug": "section-predicates"
+                    "title": "Predicates",
+                    "slug": "predicates"
                   },
                   "depth": 3,
                   "children": [
@@ -588,8 +588,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "type": "heading",
                   "data": {
                     "level": 3,
-                    "title": "Section: Applicative",
-                    "slug": "section-applicative"
+                    "title": "Applicative",
+                    "slug": "applicative"
                   },
                   "depth": 3,
                   "children": [
@@ -615,8 +615,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "type": "heading",
                   "data": {
                     "level": 3,
-                    "title": "Section: Functor",
-                    "slug": "section-functor"
+                    "title": "Functor",
+                    "slug": "functor"
                   },
                   "depth": 3,
                   "children": [
@@ -634,8 +634,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "type": "heading",
                   "data": {
                     "level": 3,
-                    "title": "Section: Chain",
-                    "slug": "section-chain"
+                    "title": "Chain",
+                    "slug": "chain"
                   },
                   "depth": 3,
                   "children": [
@@ -653,8 +653,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "type": "heading",
                   "data": {
                     "level": 3,
-                    "title": "Section: Show",
-                    "slug": "section-show"
+                    "title": "Show",
+                    "slug": "show"
                   },
                   "depth": 3,
                   "children": [
@@ -672,8 +672,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "type": "heading",
                   "data": {
                     "level": 3,
-                    "title": "Section: Eq",
-                    "slug": "section-eq"
+                    "title": "Eq",
+                    "slug": "eq"
                   },
                   "depth": 3,
                   "children": [
@@ -691,8 +691,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "type": "heading",
                   "data": {
                     "level": 3,
-                    "title": "Section: Extracting and Recovering",
-                    "slug": "section-extracting-and-recovering"
+                    "title": "Extracting and Recovering",
+                    "slug": "extracting-and-recovering"
                   },
                   "depth": 3,
                   "children": [
@@ -734,8 +734,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "type": "heading",
                   "data": {
                     "level": 3,
-                    "title": "Section: Folds and Extended Transformations",
-                    "slug": "section-folds-and-extended-transformations"
+                    "title": "Folds and Extended Transformations",
+                    "slug": "folds-and-extended-transformations"
                   },
                   "depth": 3,
                   "children": [
@@ -831,7 +831,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "foldPrefix": "^",
                   "name": "LiveScript"
                 },
-                "sourcePath": "/home/queen/Projects/folktale/monads.either/test/specs/index.ls",
+                "sourcePath": "/home/queen/Projects/folktale/monads/either/test/specs/index.ls",
                 "projectPath": "test/specs/index.ls",
                 "targetPath": "test/specs/index",
                 "pageTitle": "test/specs/index",
@@ -861,7 +861,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "foldPrefix": "^",
                   "name": "LiveScript"
                 },
-                "sourcePath": "/home/queen/Projects/folktale/monads.either/test/specs/monad-laws.ls",
+                "sourcePath": "/home/queen/Projects/folktale/monads/either/test/specs/monad-laws.ls",
                 "projectPath": "test/specs/monad-laws.ls",
                 "targetPath": "test/specs/monad-laws",
                 "pageTitle": "test/specs/monad-laws",
@@ -893,7 +893,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "LiveScript"
             },
-            "sourcePath": "/home/queen/Projects/folktale/monads.either/test/tap.ls",
+            "sourcePath": "/home/queen/Projects/folktale/monads/either/test/tap.ls",
             "projectPath": "test/tap.ls",
             "targetPath": "test/tap",
             "pageTitle": "test/tap",
