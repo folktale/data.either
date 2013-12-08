@@ -1,4 +1,4 @@
-# # monads.either
+# # Monad: Either(a, b)
 #
 # The `Either(a, b)` monad represents the logical disjunction between
 # `a` and `b`. In other words, `Either` may contain either a value of
@@ -36,18 +36,19 @@
 # monad is to hold the results of computations that may fail, when you
 # want to store additional information on the failure (instead of
 # throwing an exception).
-
+#  
 # Furthermore, the values of `Either(a, b)` can be combined and
 # manipulated by using the expressive monadic operations. This allows
 # safely sequencing operations that may fail, and safely composing
 # values that you don't know whether they're present or not, failing
 # early (returning a `Left a`) if any of the operations fail.
-
+#  
 # While this class can certainly model input validations, the
 # [Validation][] monad lends itself better to that use case, since it
 # can naturally aggregate failures — monads shortcut on the first
 # failure.
-
+#  
+# [Validation]: https://github.com/folktale/monads.validation
 
 # ## Class: Either(a, b)
 #
@@ -57,7 +58,7 @@
 class Either
   ->
 
-  # ### Section: Constructors ##########################################
+  # ### Constructors ###################################################
 
   # #### Function: Left
   #
@@ -88,7 +89,7 @@ class Either
     | _  => new Left(a)
 
 
-  # ### Section: Predicates ############################################
+  # ### Predicates #####################################################
 
   # #### Field: is-left
   #
@@ -105,7 +106,7 @@ class Either
   is-right: false
 
 
-  # ### Section: Applicative ###########################################
+  # ### Applicative ####################################################
 
   # #### Function: of
   #
@@ -130,7 +131,7 @@ class Either
   ap: (_) -> ...
 
 
-  # ### Section: Functor ###############################################
+  # ### Functor ########################################################
 
   # #### Function: map
   #
@@ -141,7 +142,7 @@ class Either
   map: (_) -> ...
 
 
-  # ### Section: Chain #################################################
+  # ### Chain ##########################################################
 
   # #### Function: chain
   #
@@ -152,7 +153,7 @@ class Either
   chain: (_) -> ...
 
 
-  # ### Section: Show ##################################################
+  # ### Show ###########################################################
 
   # #### Function: to-string
   #
@@ -162,7 +163,7 @@ class Either
   to-string: -> ...
 
 
-  # ### Section: Eq ####################################################
+  # ### Eq #############################################################
 
   # #### Function: is-equal
   #
@@ -173,7 +174,7 @@ class Either
   is-equal: (_) -> ...
 
 
-  # ### Section: Extracting and Recovering #############################
+  # ### Extracting and Recovering ######################################
 
   # #### Function: get
   #
@@ -211,7 +212,7 @@ class Either
   merge: -> @value
 
 
-  # ### Section: Folds and Extended Transformations ####################
+  # ### Folds and Extended Transformations #############################
 
   # #### Function: fold
   #

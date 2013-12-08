@@ -1,5 +1,5 @@
-monads.either
-=============
+Monads: Either
+==============
 
 [![Build Status](https://secure.travis-ci.org/folktale/monads.either.png?branch=master)](https://travis-ci.org/folktale/monads.either)
 [![NPM version](https://badge.fury.io/js/monads.either.png)](http://badge.fury.io/js/monads.either)
