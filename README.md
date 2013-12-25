@@ -4,7 +4,7 @@ The Either Monad
 [![Build Status](https://secure.travis-ci.org/folktale/data.either.png?branch=master)](https://travis-ci.org/folktale/data.either)
 [![NPM version](https://badge.fury.io/js/data.either.png)](http://badge.fury.io/js/data.either)
 [![Dependencies Status](https://david-dm.org/folktale/data.either.png)](https://david-dm.org/folktale/data.either)
-[![experimental](http://hughsk.github.io/stability-badges/dist/experimental.svg)](http://github.com/hughsk/stability-badges)
+[![stable](http://hughsk.github.io/stability-badges/dist/stable.svg)](http://github.com/hughsk/stability-badges)
 
 
 The `Either(a, b)` monad represents the logical disjunction between `a` and
