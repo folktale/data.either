@@ -48,7 +48,7 @@
 # can naturally aggregate failures — monads shortcut on the first
 # failure.
 #  
-# [Validation]: https://github.com/folktale/monads.validation
+# [Validation]: https://github.com/folktale/data.validation
 
 # ## Class: Either(a, b)
 #

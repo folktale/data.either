@@ -1,9 +1,9 @@
-Monads: Either
-==============
+The Either Monad
+================
 
-[![Build Status](https://secure.travis-ci.org/folktale/monads.either.png?branch=master)](https://travis-ci.org/folktale/monads.either)
-[![NPM version](https://badge.fury.io/js/monads.either.png)](http://badge.fury.io/js/monads.either)
-[![Dependencies Status](https://david-dm.org/folktale/monads.either.png)](https://david-dm.org/folktale/monads.either)
+[![Build Status](https://secure.travis-ci.org/folktale/data.either.png?branch=master)](https://travis-ci.org/folktale/data.either)
+[![NPM version](https://badge.fury.io/js/data.either.png)](http://badge.fury.io/js/data.either)
+[![Dependencies Status](https://david-dm.org/folktale/data.either.png)](https://david-dm.org/folktale/data.either)
 [![experimental](http://hughsk.github.io/stability-badges/dist/experimental.svg)](http://github.com/hughsk/stability-badges)
 
 
@@ -26,7 +26,7 @@ provided for the common interface in [Fantasy Land][].
 ## Example
 
 ```js
-var Either = require('monads.either')
+var Either = require('data.either')
 
 // + type: String -> Either(Error, String)
 function read(path) {
@@ -50,26 +50,26 @@ intro.map(function(a) {
 The easiest way is to grab it from NPM. If you're running in a Browser
 environment, you can use [Browserify][]
 
-    $ npm install monads.either
+    $ npm install data.either
 
 
 ### Using with CommonJS
 
 If you're not using NPM, [Download the latest release][release], and require
-the `monads.either.umd.js` file:
+the `data.either.umd.js` file:
 
 ```js
-var Either = require('monads.either')
+var Either = require('data.either')
 ```
 
 
 ### Using with AMD
 
-[Download the latest release][release], and require the `monads.either.umd.js`
+[Download the latest release][release], and require the `data.either.umd.js`
 file:
 
 ```js
-require(['monads.either'], function(Either) {
+require(['data.either'], function(Either) {
   ( ... )
 })
 ```
@@ -77,11 +77,11 @@ require(['monads.either'], function(Either) {
 
 ### Using without modules
 
-[Download the latest release][release], and load the `monads.either.umd.js`
-file. The properties are exposed in the global `folktale.monads.Either` object:
+[Download the latest release][release], and load the `data.either.umd.js`
+file. The properties are exposed in the global `folktale.data.Either` object:
 
 ```html
-<script src="/path/to/monads.either.umd.js"></script>
+<script src="/path/to/data.either.umd.js"></script>
 ```
 
 
@@ -90,12 +90,12 @@ file. The properties are exposed in the global `folktale.monads.Either` object:
 If you want to compile this library from the source, you'll need [Git][],
 [Make][], [Node.js][], and run the following commands:
 
-    $ git clone git://github.com/folktale/monads.either.git
-    $ cd monads.either
+    $ git clone git://github.com/folktale/data.either.git
+    $ cd data.either
     $ npm install
     $ make bundle
     
-This will generate the `dist/monads.either.umd.js` file, which you can load in
+This will generate the `dist/data.either.umd.js` file, which you can load in
 any JavaScript environment.
 
     
@@ -103,8 +103,8 @@ any JavaScript environment.
 
 You can [read the documentation online][docs] or build it yourself:
 
-    $ git clone git://github.com/folktale/monads.either.git
-    $ cd monads.either
+    $ git clone git://github.com/folktale/data.either.git
+    $ cd data.either
     $ npm install
     $ make documentation
 
@@ -121,14 +121,16 @@ platforms by the use of shims. Just include [es5-shim][] :)
 
 Copyright (c) 2013 Quildreen Motta.
 
-Released under the [MIT licence](https://github.com/folktale/monads.either/blob/master/LICENCE).
+Released under the [MIT licence](https://github.com/folktale/data.either/blob/master/LICENCE).
 
 <!-- links -->
 [Fantasy Land]: https://github.com/fantasyland/fantasy-land
 [Browserify]: http://browserify.org/
-[release]: https://github.com/folktale/monads.either/releases/download/v0.2.0/monads.either-0.2.0.tar.gz
 [Git]: http://git-scm.com/
 [Make]: http://www.gnu.org/software/make/
 [Node.js]: http://nodejs.org/
 [es5-shim]: https://github.com/kriskowal/es5-shim
-[docs]: http://folktale.github.io/monads.either
+[docs]: http://folktale.github.io/data.either
+<!-- [release: https://github.com/folktale/data.either/releases/download/v$VERSION/data.either-$VERSION.tar.gz] -->
+[release]: https://github.com/folktale/data.either/releases/download/v1.0.0/data.either-1.0.0.tar.gz
+<!-- [/release] -->

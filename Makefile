@@ -12,16 +12,16 @@ lib: src/*.ls
 dist:
 	mkdir -p dist
 
-dist/monads.either.umd.js: compile dist
-	$(browserify) lib/index.js --standalone folktale.monads.Either > $@
+dist/data.either.umd.js: compile dist
+	$(browserify) lib/index.js --standalone folktale.data.Either > $@
 
-dist/monads.either.umd.min.js: dist/monads.either.umd.js
+dist/data.either.umd.min.js: dist/data.either.umd.js
 	$(uglify) --mangle - < $^ > $@
 
 # ----------------------------------------------------------------------
-bundle: dist/monads.either.umd.js
+bundle: dist/data.either.umd.js
 
-minify: dist/monads.either.umd.min.js
+minify: dist/data.either.umd.min.js
 
 compile: lib
 
@@ -37,14 +37,14 @@ test:
 	$(lsc) test/tap.ls
 
 package: compile documentation bundle minify
-	mkdir -p dist/monads.either-$(VERSION)
-	cp -r docs/literate dist/monads.either-$(VERSION)/docs
-	cp -r lib dist/monads.either-$(VERSION)
-	cp dist/*.js dist/monads.either-$(VERSION)
-	cp package.json dist/monads.either-$(VERSION)
-	cp README.md dist/monads.either-$(VERSION)
-	cp LICENCE dist/monads.either-$(VERSION)
-	cd dist && tar -czf monads.either-$(VERSION).tar.gz monads.either-$(VERSION)
+	mkdir -p dist/data.either-$(VERSION)
+	cp -r docs/literate dist/data.either-$(VERSION)/docs
+	cp -r lib dist/data.either-$(VERSION)
+	cp dist/*.js dist/data.either-$(VERSION)
+	cp package.json dist/data.either-$(VERSION)
+	cp README.md dist/data.either-$(VERSION)
+	cp LICENCE dist/data.either-$(VERSION)
+	cd dist && tar -czf data.either-$(VERSION).tar.gz data.either-$(VERSION)
 
 publish: clean
 	npm install

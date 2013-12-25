@@ -1,5 +1,5 @@
 {
-  "name": "monads.either",
+  "name": "data.either",
   "version": "0.2.0",
   "description": "A monad for disjunctions. (e.g.: computations that may fail)",
   "main": "lib/index.js",
@@ -9,16 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/folktale/monads.either"
+    "url": "https://github.com/folktale/data.either"
   },
   "keywords": [
     "fantasy-land",
-    "folktale"
+    "folktale",
+    "monads",
+    "algebraic",
+    "disjunction"
   ],
   "author": "Quildreen Motta",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/folktale/monads.either/issues"
+    "url": "https://github.com/folktale/data.either/issues"
   },
   "dependencies": {},
   "devDependencies": {
