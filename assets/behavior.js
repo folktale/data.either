@@ -13,7 +13,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "commentsOnly": true,
           "name": "Markdown"
         },
-        "sourcePath": "/home/queen/Projects/folktale/monads/either/README.md",
+        "sourcePath": "/home/queen/Projects/folktale/data/either/README.md",
         "projectPath": "README.md",
         "targetPath": "index",
         "pageTitle": "index",
@@ -21,8 +21,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "type": "heading",
           "data": {
             "level": 1,
-            "title": "Monads: Either",
-            "slug": "monads-either",
+            "title": "The Either Monad",
+            "slug": "the-either-monad",
             "isFileHeader": true
           },
           "depth": 1,
@@ -105,7 +105,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             }
           ]
         },
-        "title": "Monads: Either"
+        "title": "The Either Monad"
       },
       "depth": 1,
       "outline": [
@@ -206,7 +206,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "LiveScript"
             },
-            "sourcePath": "/home/queen/Projects/folktale/monads/either/src/index.ls",
+            "sourcePath": "/home/queen/Projects/folktale/data/either/src/index.ls",
             "projectPath": "src/index.ls",
             "targetPath": "src/index",
             "pageTitle": "src/index",
@@ -831,7 +831,37 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "foldPrefix": "^",
                   "name": "LiveScript"
                 },
-                "sourcePath": "/home/queen/Projects/folktale/monads/either/test/specs/index.ls",
+                "sourcePath": "/home/queen/Projects/folktale/data/either/test/specs/either.ls",
+                "projectPath": "test/specs/either.ls",
+                "targetPath": "test/specs/either",
+                "pageTitle": "test/specs/either",
+                "firstHeader": {
+                  "type": "heading",
+                  "data": {
+                    "level": 1,
+                    "title": "Specification for Either",
+                    "slug": "specification-for-either",
+                    "isFileHeader": true
+                  },
+                  "depth": 1
+                },
+                "title": "Specification for Either"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".ls", "Slakefile"],
+                  "pygmentsLexer": "livescript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["#"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "LiveScript"
+                },
+                "sourcePath": "/home/queen/Projects/folktale/data/either/test/specs/index.ls",
                 "projectPath": "test/specs/index.ls",
                 "targetPath": "test/specs/index",
                 "pageTitle": "test/specs/index",
@@ -861,7 +891,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "foldPrefix": "^",
                   "name": "LiveScript"
                 },
-                "sourcePath": "/home/queen/Projects/folktale/monads/either/test/specs/monad-laws.ls",
+                "sourcePath": "/home/queen/Projects/folktale/data/either/test/specs/monad-laws.ls",
                 "projectPath": "test/specs/monad-laws.ls",
                 "targetPath": "test/specs/monad-laws",
                 "pageTitle": "test/specs/monad-laws",
@@ -893,7 +923,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "LiveScript"
             },
-            "sourcePath": "/home/queen/Projects/folktale/monads/either/test/tap.ls",
+            "sourcePath": "/home/queen/Projects/folktale/data/either/test/tap.ls",
             "projectPath": "test/tap.ls",
             "targetPath": "test/tap",
             "pageTitle": "test/tap",
