@@ -1,6 +1,6 @@
 # # Monad: Either(a, b)
 #
-# The `Either(a, b)` monad represents the logical disjunction between
+# The `Either(a, b)` structure represents the logical disjunction between
 # `a` and `b`. In other words, `Either` may contain either a value of
 # type `a` or a value of type `b`, at any given time. This particular
 # implementation is biased on the right value (`b`), thus projections
@@ -33,7 +33,7 @@
 # This class models two different cases: `Left a` and `Right b`, and can
 # hold one of the cases at any given time. The projections are, none the
 # less, biased for the `Right` case, thus a common use case for this
-# monad is to hold the results of computations that may fail, when you
+# structure is to hold the results of computations that may fail, when you
 # want to store additional information on the failure (instead of
 # throwing an exception).
 #  
@@ -44,7 +44,7 @@
 # early (returning a `Left a`) if any of the operations fail.
 #  
 # While this class can certainly model input validations, the
-# [Validation][] monad lends itself better to that use case, since it
+# [Validation][] structure lends itself better to that use case, since it
 # can naturally aggregate failures — monads shortcut on the first
 # failure.
 #  
