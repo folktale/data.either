@@ -26,22 +26,33 @@ provided for the common interface in [Fantasy Land][].
 ## Example
 
 ```js
-var Either = require('data.either')
-
-// + type: String -> Either(Error, String)
+// Returns the contents of the file at `path`, if it exists.
+//
+//  read : String -> Either(Error, String)
 function read(path) {
-  return exists(path)?    Either.Right(readFile(path))
-  :      /* otherwise */  Either.Left(new Error(path + ' does not exist.'))
+  return exists(path)?     Either.Right(fread(path))
+  :      /* otherwise */   Either.Left("Non-existing file: " + path)
 }
 
-var intro = read('intro.json')
-var outro = read('outro.json')
+var intro = read('intro.txt')  // => Right(...)
+var outro = read('outro.txt')  // => Right(...)
+var nope  = read('nope.txt')   // => Left("Non-existing file: nope.txt")
 
-intro.map(function(a) {
+// We can concatenate things without knowing if they exist at all, and
+// failures are handled for us
+intro.chain(function(a) {
   outro.map(function(b) {
-    console.log(intro + outro)
-  }).orElse(logFailure)
+    return a + b
+  })
 }).orElse(logFailure)
+// => Right(...)
+
+intro.chain(function(a) {
+  return nope.map(function(b) {
+    return a + b
+  })
+})
+// => Left("Non-existing file: nope.txt")
 ```
 
 
