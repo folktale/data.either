@@ -41,7 +41,7 @@ var nope  = read('nope.txt')   // => Left("Non-existing file: nope.txt")
 // We can concatenate things without knowing if they exist at all, and
 // failures are handled for us
 intro.chain(function(a) {
-  outro.map(function(b) {
+  return outro.map(function(b) {
     return a + b
   })
 }).orElse(logFailure)
