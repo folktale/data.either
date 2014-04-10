@@ -1,5 +1,5 @@
-The Either Monad
-================
+Data.Either
+===========
 
 [![Build Status](https://secure.travis-ci.org/folktale/data.either.png?branch=master)](https://travis-ci.org/folktale/data.either)
 [![NPM version](https://badge.fury.io/js/data.either.png)](http://badge.fury.io/js/data.either)
@@ -7,13 +7,13 @@ The Either Monad
 [![experimental](http://hughsk.github.io/stability-badges/dist/experimental.svg)](http://github.com/hughsk/stability-badges)
 
 
-The `Either(a, b)` monad represents the logical disjunction between `a` and
+The `Either(a, b)` structure represents the logical disjunction between `a` and
 `b`. In other words, `Either` may contain either a value of type `a` or a value
 of type `b`, at any given time. This particular implementation is biased on the
 right value (`b`), thus projections will take the right value over the left
 one.
 
-A common use of this monad is to represent computations that may fail, when you
+A common use of this structure is to represent computations that may fail, when you
 want to provide additional information on the failure. This can force failures
 and their handling to be explicit, and avoid the problems associated with
 throwing exceptions — non locality, abnormal exits, etc.
@@ -108,7 +108,7 @@ You can [read the documentation online][docs] or build it yourself:
     $ npm install
     $ make documentation
 
-Then open the file `docs/literate/index.html` in your browser.
+Then open the file `docs/index.html` in your browser.
 
 
 ## Platform support
