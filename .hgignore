@@ -3,4 +3,4 @@ syntax: glob
 node_modules
 dist
 npm-debug.log
-docs/literate
+docs
