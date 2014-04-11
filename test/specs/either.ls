@@ -24,7 +24,7 @@
  */
 
 spec = (require 'hifive')!
-Either = require '../../src/'
+Either = require '../../lib/'
 {for-all, data: {Any:BigAny, Int}, sized} = require 'claire'
 {ok, throws} = require 'assert'
 
