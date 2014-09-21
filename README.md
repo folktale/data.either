@@ -143,5 +143,5 @@ Released under the [MIT licence](https://github.com/folktale/data.either/blob/ma
 [es5-shim]: https://github.com/kriskowal/es5-shim
 [docs]: http://folktale.github.io/data.either
 <!-- [release: https://github.com/folktale/data.either/releases/download/v$VERSION/data.either-$VERSION.tar.gz] -->
-[release]: https://github.com/folktale/data.either/releases/download/v1.1.0/data.either-1.1.0.tar.gz
+[release]: https://github.com/folktale/data.either/releases/download/v1.2.0/data.either-1.2.0.tar.gz
 <!-- [/release] -->
