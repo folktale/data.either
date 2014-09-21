@@ -169,4 +169,13 @@ module.exports = spec 'Either' (o, spec) ->
          Right(a).left-map(k b).is-equal Right(a)
        .as-test!
 
-  
+  spec 'cata(p)' (o) ->
+    o 'For lefts, should apply Left' do
+       for-all(Any).satisfy (a) ->
+         Left(a).cata(Left: ((x) -> [x, x]), Right: ((x) -> [x])) === [a, a]
+       .as-test!
+    o 'For rights, should apply Right' do
+       for-all(Any).satisfy (a) ->
+         Right(a).cata(Left: ((x) -> [x, x]), Right: ((x) -> [x])) === [a]
+       .as-test!
+    
