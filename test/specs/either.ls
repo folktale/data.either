@@ -59,9 +59,9 @@ module.exports = spec 'Either' (o, spec) ->
        Either.of(a).is-equal Right(a)
      .as-test!
 
-  o 'ap(b) should keep b for Lefts' do
+  o 'x.ap(b) should keep x for Lefts' do
      for-all(Int).satisfy (a) ->
-       Left((a) -> a + 1).ap(Right(a)).is-equal Right(a)
+       Left((a) -> a + 1).ap(Right(a)).is-left
      .as-test!
 
   o 'map(f) should keep Lefts unchanged' do
@@ -72,6 +72,21 @@ module.exports = spec 'Either' (o, spec) ->
   o 'chain(f) should keep Lefts unchanged' do
      for-all(Any).satisfy (a) ->
        Left(a).chain((_) -> Right(a)).is-equal Left(a)
+     .as-test!
+
+  o 'Left.concat(Right) should keep the Left side' do
+     for-all(Any).satisfy (a) ->
+       Left(a).concat(Right(a)).is-equal Left(a)
+     .as-test!
+
+  o 'Right.concat(Left) should keep the Left side' do
+     for-all(Any).satisfy (a) ->
+       Right(a).concat(Left(a)).is-equal Left(a)
+     .as-test!
+
+  o 'Left.concat(Left) should keep the first Left' do
+     for-all(Any).satisfy (a, b) ->
+       Left(a).concat(Left(b)).is-equal Left(a)
      .as-test!
 
   spec 'to-string()' (o) ->
