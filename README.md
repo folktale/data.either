@@ -141,7 +141,7 @@ Released under the [MIT licence](https://github.com/folktale/data.either/blob/ma
 [Make]: http://www.gnu.org/software/make/
 [Node.js]: http://nodejs.org/
 [es5-shim]: https://github.com/kriskowal/es5-shim
-[docs]: http://docs.folktalejs.org/en/latest/api/data/either/index.html
+[docs]: http://folktalegithubio.readthedocs.io/en/latest/api/data/either/Either.html
 <!-- [release: https://github.com/folktale/data.either/releases/download/v$VERSION/data.either-$VERSION.tar.gz] -->
 [release]: https://github.com/folktale/data.either/releases/download/v1.5.1/data.either-1.5.1.tar.gz
 <!-- [/release] -->
