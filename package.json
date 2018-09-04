@@ -1,6 +1,6 @@
 {
   "name": "data.either",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "A monad for disjunctions. (e.g.: computations that may fail)",
   "main": "lib/index.js",
   "scripts": {
